@@ -1,10 +1,9 @@
-const AboutCollege=()=>{
+const AboutStudent=()=>{
     return(
         <div>
-            <h1>
-                This page is about nested routing
-            </h1>
+            <h1>Hello Nested Routing</h1>
+
         </div>
     )
 }
-export default AboutCollege;
+export default AboutStudent;
