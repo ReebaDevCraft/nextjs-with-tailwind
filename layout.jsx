@@ -1,4 +1,3 @@
-// components/LayoutAbout.jsx
 import Link from "next/link";
 
 export default function LayoutAbout({ children }) {
@@ -26,8 +25,6 @@ export default function LayoutAbout({ children }) {
           </ul>
         </div>
       </header>
-
-      {/* Main Content */}
       <main className="flex-1 container mx-auto p-6 bg-white rounded-lg shadow-lg mt-6">
         {children}
       </main>
