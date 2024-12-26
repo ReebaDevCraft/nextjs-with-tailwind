@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function LayoutAbout({ children }) {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
-      {/* Header Navigation */}
       <header className="bg-blue-600 text-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="flex space-x-6">
